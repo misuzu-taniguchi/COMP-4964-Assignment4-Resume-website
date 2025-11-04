@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Misuzu Taniguchi - Resume</title>
+    <meta name="description"
+        content="Resume and portfolio of Misuzu Taniguchi, BCIT Computing student and DevOps enthusiast." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-flex">
+            <div>
+                <h1>Misuzu Taniguchi</h1>
+                <p class="subtitle">BCIT CST Student | Cloud Computing Option | Vancouver, BC</p>
+                <div class="links">
+                    <a href="mailto:mtaniguchi3@my.bcit.ca">mtaniguchi3@my.bcit.ca</a> |
+                    <a href="https://github.com/misuzu-taniguchi" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/misuzu-taniguchi/" target="_blank">LinkedIn</a>
+                </div>
+                <a class="btn" href="./assets/Resume_Misuzu Taniguchi.pdf" target="_blank">📄 View Resume (PDF)</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="pill-list">
+                    <li>AWS Certified Solutions Architect (2025)</li>
+                    <li>Python / Java / Kotlin / C / JavaScript</li>
+                    <li>Node.js • React • FastAPI • Bootstrap • JavaFX</li>
+                    <li>MySQL • PostgreSQL • DynamoDB • MongoDB • Firebase</li>
+                    <li>Docker • Git • CI/CD • CloudWatch • IaC</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Work Experience</h2>
+
+                <article class="card">
+                    <h3>Corporate Strategy Analyst Intern – Aquanow (Vancouver, Canada)</h3>
+                    <p class="muted">Apr 2024 – Aug 2024</p>
+                    <ul>
+                        <li>Retrieved cryptocurrency market data via CoinGecko APIs in Python and stored data in
+                            structured CSV formats.</li>
+                        <li>Utilized Pandas, NumPy, and Matplotlib to analyze trends and created visual reports for
+                            client presentations.</li>
+                        <li>Conducted market and industry research to generate strategic insights for internal and
+                            external stakeholders.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Administrative Assistant – Jpcanada (Vancouver, Canada)</h3>
+                    <p class="muted">Oct 2021 – Jul 2023</p>
+                    <ul>
+                        <li>Organized client data to assist study permit applications and produced reports on visa
+                            approval rates and processing
+                            time using Google Sheets and Excel to provide insights for internal teams and client
+                            guidance</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Midwife – JCHO Yamatokoriyama Hospital (Nara, Japan)</h3>
+                    <p class="muted">Apr 2017 – Mar 2020</p>
+                    <ul>
+                        <li>Managed sensitive patient data and coordinated task scheduling and resource planning for
+                            labour and delivery.</li>
+                        <li>Coached newly hired midwives to acquire familiarity with working environment and duties
+                            quickly.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <article class="card">
+                    <h3>pos-integrator</h3>
+                    <p>Full-stack marketplace for movers built with Node.js and JavaScript, deployed on Amazon EC2.</p>
+                    <ul>
+                        <li>Developed a FastAPI endpoint to fetch POS data from Square and Clover APIs on demand and
+                            stored it in a Docker-hosted PostgreSQL database with a unified schema for seamless
+                            integration into Stocky AI's production system.</li>
+                        <li>Collaborated with Principal Engineers to develop Pytest unit tests ensuring the robustness
+                            of the integration work.</li>
+                        <li>Participated in a 5-week Agile sprint, joining daily stand-ups and weekly reviews led by
+                            Principal Engineers.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3><a href="https://github.com/misuzu-taniguchi/ReloCash" target="_blank">ReloCash</a></h3>
+                    <p>Full-stack marketplace for movers built with Node.js and JavaScript, deployed on Amazon EC2.</p>
+                    <ul>
+                        <li>Built a full-stack marketplace for movers in a team of three using JavaScript and Node.js,
+                            hosted on Amazon EC2.</li>
+                        <li>Integrated user authentication via Amazon Cognito, storing customer/item data in DynamoDB
+                            and photos in S3/EFS.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3><a href="https://github.com/misuzu-taniguchi/asset-tracker" target="_blank">Asset Tracker</a>
+                    </h3>
+                    <p>React + Firebase web app for multi-account asset management and price visualization.</p>
+                    <ul>
+                        <li>Developed an asset tracking web application using React and Firebase to manage multiple
+                            accounts.</li>
+                        <li>Implemented account-specific filtering, dynamic price updates, and account trend
+                            visualizations with Plotly.js.</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3><a href="https://github.com/misuzu-taniguchi/COMP-2522-Oishii-Ramen" target="_blank">Oishii
+                            Ramen</a></h3>
+                    <p>JavaFX game simulating ramen-shop management with object-oriented design and 127 JUnit tests.</p>
+                    <ul>
+                        <li>Crafted Java-based Ramen store management game with a partner, utilizing JavaFX for the
+                            interface design.
+                        </li>
+                        <li>Applied advanced OOP principles to optimize software design and enhance the functionality
+                            and maintainability.</li>
+                        <li>Created and executed 127 JUnit tests to ensure code reliability and robust functionality.
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3><a href="https://github.com/misuzu-taniguchi/DTC06-helpER" target="_blank">helpER</a></h3>
+                    <p>Mobile-friendly web app using HTML, CSS, JS, and Bootstrap to find ERs and join waitlists.</p>
+                    <ul>
+                        <li>Built a mobile-friendly web app with HTML, CSS, JavaScript, and Bootstrap to help users find
+                            ERs and join waitlists.
+                        </li>
+                        <li>
+                            Utilized Firebase for efficient data storage, enabling seamless user experiences for
+                            storing and retrieving information.
+                        </li>
+                        <li>
+                            Led the team project through the full development lifecycle to ensure deadlines were met
+                            and objectives achieved.
+                        </li>
+                    </ul>
+                </article>
+
+
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <ul>
+                    <li>Diploma in Computer Systems Technology (Cloud Computing Option), BCIT - Vancouver, Canada (Sep
+                        2023
+                        - Dec 2025 est.)</li>
+                    <li>Bachelor of Science in Nursing, Kyoto University - Kyoto, Japan (Apr 2012 - Mar 2016)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> Misuzu Taniguchi</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
