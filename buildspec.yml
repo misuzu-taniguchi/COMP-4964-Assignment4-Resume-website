@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     commands:
@@ -7,11 +6,7 @@ phases:
   build:
     commands:
       - echo "Syncing to S3 bucket..."
-      - aws s3 sync . s3://comp4964-a4-misuzu --delete \
-          --exclude ".git/*" \
-          --exclude ".github/*" \
-          --exclude "buildspec.yml" \
-          --exclude "README.md"
+      - aws s3 sync . s3://comp4964-a4-misuzu --delete --exclude ".git/*" --exclude ".github/*" --exclude "buildspec.yml" --exclude "README.md" --exclude ".DS_Store" --exclude "*/.DS_Store"
 artifacts:
   files:
     - '**/*'
